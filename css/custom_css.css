@@ -1,3 +1,28 @@
 .navbar {
     background-color: palegoldenrod;
 }
+div.box {
+    text-align: center;
+    background: linear-gradient(#076dff,#65a5ff);
+    border-radius: 7px;
+    margin: 24px;
+    padding: 36px 24px 40px 24px;
+    box-shadow: 0 0 10px 10px rgba(0,0,0,0.15),
+                0 2px 8px 4px rgba(0,0,0,1);
+}
+div.box label p {
+    text-align: justify;
+    color: aliceblue;
+    font-family: cursive;
+    line-height: 20px;
+}
+div.boxicon {
+    width: 100%;
+}
+div.container article p {
+    text-align: justify;
+    color: #ff3300;
+    font-family: cursive;
+    line-height: 20px;
+    padding: 20px;
+}
