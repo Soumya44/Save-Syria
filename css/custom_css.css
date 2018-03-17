@@ -1,5 +1,15 @@
 .navbar {
-    background-color: palegoldenrod;
+    background-color: #e3f2fd;
+    width: 100%;
+}
+.navbar-brand {
+    font-family: fantasy;
+}
+.nav-link {
+    font-weight: bold;
+}
+header img {
+    height: 200px;
 }
 div.box {
     text-align: center;
@@ -10,7 +20,8 @@ div.box {
     box-shadow: 0 0 10px 10px rgba(0,0,0,0.15),
                 0 2px 8px 4px rgba(0,0,0,1);
 }
-div.box label p {
+div.box label p,
+.box p {
     text-align: justify;
     color: aliceblue;
     font-family: cursive;
@@ -25,4 +36,14 @@ div.container article p {
     font-family: cursive;
     line-height: 20px;
     padding: 20px;
+}
+.readmorebtn {
+    margin: 5px;
+}
+body{
+    background-image: url("../assets/assassins_creed_revelations_ezio-wallpaper-1920x1080%20(1).jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
