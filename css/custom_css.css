@@ -95,11 +95,11 @@ footer {
 
 }
 
-footer a {
+/* footer a {
     position: relative;
     left: 1110px;
     top: 5px;
-}
+} */
 
 .fa-facebook {
     background: #3B5998;
@@ -142,4 +142,11 @@ footer a {
     width: 30px;
     height: 30px;
     text-decoration: none;
+}
+#social{
+   float: right;
+   margin-top: 5px;
+   margin-right: 10px;
+   
+
 }
